@@ -14,7 +14,8 @@ body {
   margin: 0 auto;
   padding: 2em;
   max-width: 35em;
-  /*transform: rotate(-1deg);*/
+  //transform: rotate(-1.5deg);
+  z-index: -1;
 }
 
 .scroll h2 {
@@ -23,7 +24,7 @@ body {
 }
 
 .scroll p {
-font-family: 'Coming Soon', cursive;
+  font-family: 'Coming Soon', cursive;
   font-size: 1.25em;
 }
 
@@ -39,4 +40,5 @@ img {
   margin: 1em;
   float: right;
   z-index: 1;
+  position:relative;
 }
