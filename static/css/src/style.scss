@@ -6,6 +6,9 @@ body {
 
 .container {
 	margin: 1em;
+    @media(max-width: 667px) {
+      margin: .5em;
+    }  
 }
 
 .charles {
@@ -36,6 +39,9 @@ body {
   .title {
     text-align: center;
     font-family: 'Homemade Apple', cursive;
+    @media(max-width: 667px) {
+      text-align: left;
+    }
   }
 
   .text {
